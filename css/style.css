@@ -1,0 +1,180 @@
+
+html
+{
+	font-family: 'Open Sans', sans-serif!important; 
+}
+body
+{
+    background-color:#ebeff2;
+}
+.wigdetContent
+{
+	float:left; 
+	width:94%; 
+    height:254px;
+	-webkit-box-shadow: 1px 0 10px -4px rgba(31, 73, 125, 0.8), -1px 0 6px -4px rgba(31, 73, 125, 0.8);
+	-moz-box-shadow: 1px 0 10px -4px rgba(31, 73, 125, 0.8), -1px 0 6px -4px rgba(31, 73, 125, 0.8);
+	 box-shadow: 1px 0 10px -4px rgba(31, 73, 125, 0.8), -1px 0 6px -4px rgba(31, 73, 125, 0.8);
+	/*height:450px;*/
+}
+
+
+
+.toptableContent
+{
+	width:100%; 
+	background-color:#1e5aba; 
+	color:#fff; 
+	border-top: 1px solid #fff;
+}
+
+.tableHeader
+{
+	width:100%; 
+	height:30px; 
+	/*background-color:#25476a;*/
+}
+.tableHeadWrapper
+{
+	color:#fff;
+	line-height:30px; 
+	margin-left:10px
+}
+
+.topperName
+{
+	position: relative;
+    top: 15px;
+    left: 30px;
+    font-size: 18px;
+}
+.topScore
+{
+	font-size: 26px;
+    font-weight: bold;
+    position: relative;
+    top: 11px;
+    left: 8px;
+}
+
+.memberName
+{
+    position: relative;
+    top: 10px;
+    color: #3f3f3f;
+    font-size: 14px;
+}
+.rankFont
+{
+	color:#404040;
+}
+.rank
+{
+  position: relative;
+  top: 10px;
+  font-size: 12px;
+}
+.score
+{
+	font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    left: 5px;
+    color: #3f3f3f;
+}
+.trophyTop
+{
+	width: 46px!important;
+    height: 44px;
+    background-image: url(../img/t1.png);
+    position: relative;
+    background-size: 97%;
+    top: 28px;
+    right: -15px;
+}
+
+.trophySecond
+{
+	width: 23px!important;
+    height: 24px;
+    background-image: url(../img/t2.png);
+    position: relative;
+    background-size: 100%;
+    top: 9px;
+}
+
+.trophyThird
+{
+	width: 23px!important;
+    height: 24px;
+    background-image: url(../img/t3.png);
+    position: relative;
+    background-size: 100%;
+    top: 9px;
+}
+
+.trophyOthers
+{
+	width: 19px!important;
+    height: 26px;
+    background-image: url(../img/t4.png);
+    position: relative;
+    background-size: 100%;
+    top: 9px;
+}
+#tabZoneId120
+{
+	display: none;
+}
+
+/*/*****================ Leaderboard Overall Count Rows=========================**********/
+
+.slaFont
+{
+    font-size:18px;
+    font-weight: bold;
+}
+
+.totalWrapper
+{
+    color: #fff;
+    width:94.3%;
+    height:49px;
+    background-color:#51595c;
+    top: -7px;
+    position: relative;
+}
+.totalContentWrapper
+{
+    position:relative;
+    top:10px;
+    left:30px;
+}
+.countWrapper
+{
+    float: left;
+    width: 22%;
+    position: relative;
+    left: 20px;
+    text-align: center;
+    top: 6px;
+}
+.slaWrapper
+{
+    float:left;
+    width: 27%;
+    position: relative;
+    left: 30px;
+    text-align: center;
+    top: 6px;
+}
+.notslaWrapper
+{
+    float:left;
+    width: 46%;
+    text-align: center;
+    position: relative;
+    top: 6px;
+    left: 20px;
+}
